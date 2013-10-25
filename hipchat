@@ -120,4 +120,5 @@ curl -sS \
   --data-urlencode "color=$COLOR" \
   --data-urlencode "notify=$NOTIFY" \
   --data-urlencode "message=$MESSAGE" \
+  --data-urlencode "message_format=text" \
   https://$HOST/v1/rooms/message
